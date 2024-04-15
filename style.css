@@ -8,22 +8,25 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
 }
 
-.feedback {
+.top-buttons {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 10px; /* Adjusted to bring both buttons to the right top corner */
+    display: flex;
 }
 
-.feedback a {
+.privacy-button,
+.feedback-button {
     color: white;
     background-color: transparent;
-    padding: 20px;
+    padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
-    font-family: -apple-system, sans-serif;
+    margin-left: 10px; /* Adds space between the buttons */
 }
 
 .title {
@@ -31,7 +34,6 @@ body {
     background-color: transparent;
     text-decoration: none;
     font-size: 24px;
-    font-family: -apple-system, sans-serif;
 }
 
 .centered {
