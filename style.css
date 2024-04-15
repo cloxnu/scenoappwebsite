@@ -26,8 +26,19 @@ body {
     font-family: -apple-system, sans-serif;
 }
 
+.title {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: -apple-system, sans-serif;
+}
+
 .centered {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally in the flex container */
 }
 
 .centered img {
