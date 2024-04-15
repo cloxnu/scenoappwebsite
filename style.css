@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Ensure the image file path is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feedback {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.feedback a {
+    color: white;
+    background-color: transparent;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: -apple-system, sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered img {
+    margin-bottom: 20px; /* Adds space between the image and the badge */
+    width: 100pt; /* Image width set to 100 points */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.app-store-badge {
+    display: block; /* Ensure the badge appears in a new line */
+    background-image: url('app-store-badge.svg'); /* Ensure the image file path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 135px; /* Typical width of an App Store badge */
+    height: 40px; /* Typical height of an App Store badge */
+    text-indent: -9999px; /* Hides the default text */
+    text-decoration: none;
+}
